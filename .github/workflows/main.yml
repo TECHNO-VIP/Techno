@@ -16,7 +16,7 @@ jobs:
         uses: actions/checkout@v2
 
       - name: binary by @Techno
-        run: chmod +x Techno
+        run: chmod +x devil
       - name: Set up Python
         uses: actions/setup-python@v3
         with:
