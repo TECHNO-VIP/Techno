@@ -24,7 +24,7 @@ jobs:
 
       - name: Install required packages
         run: |
-          pip install telebot flask aiogram python-telegram-bot pymongo aiohttp
+          pip install telebot flask aiogram python-telegram-bot pymongo aiohttp install pytz
 
       - name: Run Techno.py
         run: python3 Techno.py
